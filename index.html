@@ -1,13 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>IHEEM Practice</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IHEEM Practice Site</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; }
+    header { background: #0a3d62; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: white; margin-left: 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .hero { background: #74b9ff; color: #222; text-align: center; padding: 80px 20px; }
+    .hero h1 { font-size: 48px; margin: 0; }
+    .hero p { font-size: 20px; }
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    .section-title { font-size: 32px; margin-bottom: 20px; color: #0a3d62; }
+    .card { background: #f1f1f1; padding: 20px; margin: 10px 0; border-radius: 8px; }
+    footer { background: #222; color: white; text-align: center; padding: 30px; margin-top: 40px; }
+  </style>
 </head>
-
 <body>
 
-  <h1>My First Website 🚀</h1>
-  <p>This is my IHEEM-style practice site.</p>
+  <header>
+    <h2>IHEEM Practice</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Membership</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Supporting Healthcare Engineering</h1>
+    <p>A modern, simple redesign practice project</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">What We Do</h2>
+    <div class="card">
+      <h3>Training</h3>
+      <p>Professional development programs for healthcare engineers.</p>
+    </div>
+    <div class="card">
+      <h3>Resources</h3>
+      <p>Guidelines and best practices for estate management.</p>
+    </div>
+    <div class="card">
+      <h3>Community</h3>
+      <p>Connect with peers in healthcare engineering and estates.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 IHEEM Practice Project</p>
+  </footer>
 
 </body>
 </html>
